@@ -1,0 +1,95 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .all {
+        width: 500px;
+        margin: 20px auto;
+        margin-bottom: 40px;
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+
+        p {
+            background-color: rgb(173, 0, 0);
+            color: #eee;
+            font-size: 19px;
+            width: 400px;
+            padding: 20px;
+            text-transform: capitalize;
+            width: fit-content;
+            text-align: left;
+        }
+
+        .over {
+            overflow: hidden;
+            height: 80px;
+            width: 400px;
+
+        }
+    }
+
+    .elzero {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 50px auto;
+        text-align: center;
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+
+        .p_1 {
+            text-transform: uppercase;
+
+        }
+
+        .p_2 {
+            text-transform: capitalize;
+
+        }
+
+        .p_3 {
+            text-transform: lowercase;
+
+        }
+    }
+
+    .last_div,
+    .last_div_two,
+    .last_div_three {
+        width: 400px;
+        background-color: #eee;
+        margin: 20px auto;
+        padding: 15px;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1.7;
+
+    }
+
+    .last_div_two {
+        height: 33px;
+        line-height: 1.9;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .last_div_three {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+}
